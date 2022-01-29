@@ -1,0 +1,33 @@
+{
+  "name": "node-pdf",
+  "version": "1.0.0",
+  "description": "Crete and sign pdf using nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitoutofbox/node-pdf.git"
+  },
+  "keywords": [
+    "nodejs",
+    "pdf"
+  ],
+  "author": "codeStudio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gitoutofbox/node-pdf/issues"
+  },
+  "homepage": "https://github.com/gitoutofbox/node-pdf#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "path": "^0.12.7",
+    "pdf-creator-node": "^2.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
